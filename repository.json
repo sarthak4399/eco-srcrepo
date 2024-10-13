@@ -1,0 +1,74 @@
+{
+    "packages": [
+        {
+            "name": "python",
+            "version": "3.9.5",
+            "dependencies": ["libpython", "openssl"],
+            "url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-amd64.exe",
+            "checksum": "b9c10b301ba42c6ba789bfa22eeb896e"
+        },
+        {
+            "name": "libpython",
+            "version": "3.9.5",
+            "dependencies": [],
+            "url": "https://www.python.org/ftp/python/3.9.5/python-3.9.5-embed-amd64.zip",
+            "checksum": "94ec3e47fbb7036763a030d7494a1e8f"
+        },
+        {
+            "name": "openssl",
+            "version": "1.1.1",
+            "dependencies": [],
+            "url": "https://www.openssl.org/source/openssl-1.1.1.tar.gz",
+            "checksum": "sha256:a1e2f48f99283b9ff82d1005efeb18f4237f6143e4f36e40716e832b1a4780d2"
+        },
+        {
+            "name": "curl",
+            "version": "7.78.0",
+            "dependencies": [],
+            "url": "https://curl.se/download/curl-7.78.0.tar.gz",
+            "checksum": "sha256:a53eb9b87a2305bce40602d8705243c1d106a5f6fb8fd2c88e9f5088d89c1a0b"
+        },
+        {
+            "name": "git",
+            "version": "2.33.0",
+            "dependencies": [],
+            "url": "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.33.0.tar.gz",
+            "checksum": "sha256:de7cb8e25e4057981d6a22735a104ae07f75ba58d953f151b3a21a04f76e15a2"
+        },
+        {
+            "name": "nodejs",
+            "version": "14.17.0",
+            "dependencies": ["npm"],
+            "url": "https://nodejs.org/dist/v14.17.0/node-v14.17.0-linux-x64.tar.xz",
+            "checksum": "sha256:c8f8e8b8b9ddfd8d2e1328e5fc91c6482873ff9601b624cf9173c1d8f14d4c3f"
+        },
+        {
+            "name": "npm",
+            "version": "7.13.0",
+            "dependencies": [],
+            "url": "https://github.com/npm/cli/archive/v7.13.0.tar.gz",
+            "checksum": "sha256:df84a399ec1933a256abe6b05f1c59d774e1a8c1a3a52475d982ce9a0e08e5ae"
+        },
+        {
+            "name": "nginx",
+            "version": "1.21.3",
+            "dependencies": [],
+            "url": "https://nginx.org/download/nginx-1.21.3.tar.gz",
+            "checksum": "sha256:de56461e26ef58a0eaeae25e7a4fbbf1d6228b438e7b8f86b1c69e2cba96b13a"
+        },
+        {
+            "name": "mysql",
+            "version": "8.0.26",
+            "dependencies": ["openssl"],
+            "url": "https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.26-linux-glibc2.12-x86_64.tar.xz",
+            "checksum": "sha256:98ac46ba5b024b65c2ddf589850c8e034ff2ef88c74b0156b653c45ae8cfd5f2"
+        },
+        {
+            "name": "mongodb",
+            "version": "4.4.6",
+            "dependencies": [],
+            "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.4.6.tgz",
+            "checksum": "sha256:9091acb2b219f111a41b3a6587e578de11297aa5cbd1d7a8e8b7fcfa8e455a93"
+        }
+    ]
+}
