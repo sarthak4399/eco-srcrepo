@@ -69,6 +69,13 @@
             "dependencies": [],
             "url": "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-4.4.6.tgz",
             "checksum": "sha256:9091acb2b219f111a41b3a6587e578de11297aa5cbd1d7a8e8b7fcfa8e455a93"
+        },
+        {
+            "name": "java",
+            "version": "23.0.1",
+            "dependencies": [],
+            "url": "https://download.oracle.com/java/23/latest/jdk-23_linux-x64_bin.deb",
+            "checksum": "sha256:5ca258136aef3c82c40c30515cbe850a51a690887e31ba81ecfa9f96f978bd80"
         }
     ]
 }
